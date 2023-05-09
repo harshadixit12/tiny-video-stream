@@ -1,0 +1,17 @@
+{
+  "name": "video-streaming",
+  "version": "1.0.0",
+  "description": "Steams videos over HTTP",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js localhost 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
